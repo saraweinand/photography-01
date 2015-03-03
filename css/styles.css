@@ -287,25 +287,50 @@ li a:hover {
 
 .contact_container iframe {
 	width: 100%;
+	margin-bottom: 2em;
 	
 }
 
-.contact_container em {
-	width: 36%;
+.contactinfo {
+	width: 25%;
 	float: left;
-	margin: 0 0 5% 0;
-	text-align: right;
-	font-size: 1.5em;
+	text-align: left;
 	font-weight: 300;
 }
 
-.contact_container p {
-	width: 59%;
-	margin: 0 2% 5% 0;
+.contactinfo h3 {
+	margin: 0;
+	font-size: 1em;
+}
+
+.contactinfo h3:nth-child(3) {
+	margin-top: 1em;
+}
+
+.contactinfo h3:nth-child(5) {
+	margin-top: 1em;
+}
+
+.contact_container form {
+	width: 70%;
 	float: right;
-	font-weight: 300;
+	margin-bottom: 5em;
 }
 
+.contact_container form input{
+	width: 46%;
+	display: left;
+	height: 2em;
+	margin: .5% 1% .5% 0;
+}
+
+.contact_container form textarea{
+	width: 94%;
+	height: 10em;
+	display: inline-block;
+	float: left;
+	margin-top: .5%;
+}
 
 
 footer {
