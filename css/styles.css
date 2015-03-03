@@ -11,7 +11,7 @@ body {
 	margin: 0 auto;
 }
 
-/* ---- LAYOUT ---- */
+/* ---- left ---- */
 .section-left {
 	width: 20%;
 	height: 100%;
@@ -50,7 +50,7 @@ body {
 }
 
 .logo {
-	width: 65%;
+	width: 60%;
 	opacity: .9;
 	display: inline-block;
 	margin: 0 auto 1em auto;
@@ -86,6 +86,8 @@ body {
 	font-weight: 300;
 	margin: 0;
 }
+
+/* ---- right ---- */
 
 .section-right nav {
 	font-weight: 300;
@@ -141,10 +143,6 @@ body {
 
 }
 
-.socialmedia li:first-of-type {
-	margin-right: -.5em;
-}
-
 
 /* ---- NAVIGATION ---- */
 
@@ -166,22 +164,15 @@ li a:hover {
 	font-weight: 500;
 }
 
-footer {
-	background: #3f3f3f;
-	height: 2em;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: -1;
+
+.socialmedia img {
+	height: 1.5em;
 }
 
-footer h2 {
-	font-size: .5em;
-	padding: .5em;
-	text-align: center;
-	letter-spacing: .5px;
+.socialmedia li:first-of-type {
+	margin-right: -.5em;
 }
+
 
 
 
@@ -254,6 +245,78 @@ footer h2 {
   margin-left: 0;
 }
 
-/* ---- NAVIGATION ---- */
+/* ---- about ---- */
+
+.about_container {
+	overflow: hidden;
+	display: inline-block;
+	margin: 2.5em 1em 0 0;
+	z-index: -1;
+}
+
+.about_container img {
+	width: 100%;
+}
+
+
+.about_container em {
+	width: 36%;
+	float: left;
+	margin: 5% 0 5% 0;
+	text-align: right;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.about_container p {
+	width: 59%;
+	margin: 5% 2% 5% 0;
+	float: right;
+	font-weight: 300;
+}
+
+
+/* ---- contact ---- */
+
+.contact_container {
+	overflow: hidden;
+	display: inline-block;
+	margin: 2.5em 1em 0 0;
+	z-index: -1;
+}
+
+.contact_container iframe {
+	width: 100%;
+	
+}
+
+.contact_container em {
+	width: 36%;
+	float: left;
+	margin: 0 0 5% 0;
+	text-align: right;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.contact_container p {
+	width: 59%;
+	margin: 0 2% 5% 0;
+	float: right;
+	font-weight: 300;
+}
+
+
+
+footer {
+	background: #3f3f3f;
+	height: 2em;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+}
+
 /* ---- NAVIGATION ---- */
 /* ---- NAVIGATION ---- */
