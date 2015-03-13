@@ -92,12 +92,17 @@ body {
 
 .section-right nav {
 	font-weight: 300;
-	font-size: .9em;
-	position: fixed;
-	width: 80%;
-	margin-right: .5em;
-	background: #3f3f3f;
-	z-index: 9999999;
+  font-size: .9em;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  width: 100%;
+  float: right;
+  background: #3f3f3f;
+  z-index: 9999999;
+  margin-right: 5em;
 }
 
 .section-right nav ul {
@@ -424,7 +429,9 @@ li a:hover {
 	font-weight: 300;
 }
 
-
+.section-right {
+	position: relative;
+}
 
 
 
