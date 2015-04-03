@@ -60,7 +60,19 @@
                         </div>
                 </div>
 
-                <form class="emailform" role="form" action="mailto:saraweinand@gmail.com">
+                <form class="email" action="mailer.php" method="post">
+                    <p>Name:</p>
+                        <input type="text" name="name" />
+                    <p>E-mail:</p>
+                        <input type="text" name="email" />
+                    <p>Subject:</p>
+                        <input type="text" name="subject" />
+                    <p>Message:</p>
+                    <textarea name="message"></textarea></p>
+                    <input class="send" type="submit" value="Send">
+                </form>
+
+                <!--<form class="emailform" role="form" action="mailto:saraweinand@gmail.com">
                     <h2>book a session</h2>
                     <em>by appointment only: Please call or email to schedule an appointment with me</em>
                     <input type="text" placeholder="Name" class="form-control">
@@ -69,7 +81,7 @@
                     <input type="sessiontype" placeholder="Session Type" class="form-control">
                     <textarea placeholder="Message" class="form-control"></textarea>
                     <input type="submit" value="Send">
-                </form>
+                </form>-->
                 
             </div>
             <div style="clear:both; display:block; "></div>
