@@ -60,24 +60,14 @@
                         </div>
                 </div>
 
-                <p>Required fields are <b>bold</b></p>
+                <form action="mail.php" method="POST">
+                    <p>Name</p> <input type="text" name="name">
+                    <p>Email</p> <input type="text" name="email">
+                    <p>Phone</p> <input type="text" name="phone">
 
-                <form action="mailer.php" method="post">
-                        <p><b>Your Name:</b> <input type="text" name="yourname" /><br />
-                        <b>Subject:</b> <input type="text" name="subject" /><br />
-                        <b>E-mail:</b> <input type="text" name="email" /><br />
-                        <input type="text" name="website"></p>
 
-                        
-
-                        <p><b>Your comments:</b><br/>
-                        <textarea name="comments" rows="10" cols="40"></textarea></p>
-
-                        <p><input type="submit" value="Send it!"></p>
-
-                        
-                        
-
+                    <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+                    <input type="submit" value="Send"><input type="reset" value="Clear">
                 </form>
 
                 <!--<form class="emailform" role="form" action="mailto:saraweinand@gmail.com">
