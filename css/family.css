@@ -11,3 +11,7 @@ li:nth-child(14) {
 #families .portfolio-left li:nth-child(6) {
 	width: 49%;
 }
+
+#families .portfolio-left {
+	position: relative;
+}

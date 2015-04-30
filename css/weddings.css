@@ -11,3 +11,8 @@ li:nth-child(6) {
 #weddings .portfolio-right li {
 	width: 100%;
 }
+
+
+#weddings .portfolio-left {
+	position: relative;
+}

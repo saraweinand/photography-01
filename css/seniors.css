@@ -30,3 +30,9 @@ li:nth-child(17)
 #seniors .portfolio-left {
 	z-index: 9999999;
 }
+
+
+
+#seniors .portfolio-left {
+	position: relative;
+}
