@@ -1,0 +1,17 @@
+#families .portfolio-left li:nth-child(4),
+#families .portfolio-left li:nth-child(5),
+#families .portfolio-left li:nth-child(8),
+#families .portfolio-left li:nth-child(9),
+#families .portfolio-left li:nth-child(12),
+#families .portfolio-left li:nth-child(13),
+#families .portfolio-left li:nth-child(14) {
+  width: 100%
+}
+
+#families .portfolio-left li:nth-child(6) {
+	width: 49%;
+}
+
+#families .portfolio-left {
+	position: relative;
+}
