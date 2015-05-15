@@ -1,0 +1,30 @@
+#kids .portfolio-right li {
+	width: 100%;
+}
+
+#kids .portfolio-right li{
+	width: 100%;
+}
+
+#kids .portfolio-left ul li:nth-child(1),
+#kids .portfolio-left ul li:nth-child(5),
+#kids .portfolio-left ul li:nth-child(7),
+#kids .portfolio-left ul li:nth-child(8),
+#kids .portfolio-left ul li:nth-child(13),
+#kids .portfolio-left ul li:nth-child(14) {
+	width: 49%;
+}
+
+#kids .portfolio-left li:nth-child(3),
+#kids .portfolio-left li:nth-child(6),
+#kids .portfolio-left li:nth-child(9),
+#kids .portfolio-left li:nth-child(12),
+#kids .portfolio-left li:nth-child(17) {
+	width: 100%;
+}
+
+
+
+#kids .portfolio-left {
+	position: relative;
+}
