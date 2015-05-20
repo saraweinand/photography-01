@@ -3,12 +3,12 @@
 #families .portfolio-left li:nth-child(8),
 #families .portfolio-left li:nth-child(9),
 #families .portfolio-left li:nth-child(12),
-#families .portfolio-left li:nth-child(13),
-#families .portfolio-left li:nth-child(14) {
+#families .portfolio-left li:nth-child(13) {
   width: 100%
 }
 
-#families .portfolio-left li:nth-child(6) {
+#families .portfolio-left li:nth-child(6),
+#families .portfolio-left li:nth-child(7) {
 	width: 49%;
 }
 

@@ -5,7 +5,7 @@
 
 body {
 
-	/*max-width: 1400px;*/
+	max-width: 1400px;
 	margin: 0 auto;
 	color: white;
 	width: 100%;
@@ -47,8 +47,6 @@ body {
 	float: right;
 	z-index: 99999;
 	background: #474747;
-	height: 100%;
-	margin-bottom: 0;
 }
 
 .logo {
@@ -191,6 +189,13 @@ nav li a:active {
 
 
 
+
+
+
+
+
+
+
 /* ------------------------------------------------------------------------------------ 
 ***      ***    **********    ***       ***   ************
 ***      ***   ************   *****   *****   ************
@@ -282,8 +287,8 @@ nav li a:active {
 
 }
 
-.banner {
-	width: 100%;
+.contact .section-right img {
+	width: 95%;
 	display: block;
 	margin: 2% auto;
 }
@@ -293,11 +298,13 @@ nav li a:active {
 	font-size: 2em;
 	font-weight: 300;
 	padding: 0;
-	margin: 5% 0 0 0;
+	margin: 1em 0 0 0;
 	text-align: center;
 }
 
-
+.contactinfo h3 {
+	margin-top: 10%;
+}
 
 
 .contactinfo h5 {
@@ -413,7 +420,7 @@ hr.style1{
 #name, #email, #phone, #session {
 	width: 48%;
 	display: inline-block;
-	margin: 2% .5% 0 .5%;
+	margin: 1em .5% 0 .5%;
 	height: 2em;
 }
 
@@ -558,11 +565,12 @@ hr.style1{
 
 .portfolio-left ul li {
 	display: inline-block;
-	width: 49.75%;
+	width: 100%;
 }
 
-.portfolio-left li:first-of-type {
-  width: 100%;
+.portfolio-left li:nth-child(2),
+.portfolio-left li:nth-child(3) {
+  width: 49.5%;
 
 }
 
@@ -633,7 +641,14 @@ hr.style1{
 
 
 /* ------------------------------------------------------------------------------------ 
-									MEDIA QUERIES 
+   *******    ***     ***   **********  ********     *********   **********   ********
+  *********   ***     ***   *********   *********    *********   *********   **********
+  **     **   ***     ***   ***         ***    ***      ***      ***         ***     ***
+  **     **   ***     ***   *******     ***    ***      ***      *******       ***
+  **   * **   ***     ***   *******     *********       ***      *******          ***
+  *********   ***     ***   ***         ***   ***       ***      ***         ***    ***
+   *********   *********    *********   ***    ***   *********   *********    **********
+           **   *******     **********  ***     ***  *********   **********    ********
 ------------------------------------------------------------------------------------ */
 
 @media screen and (max-width: 768px) { 
@@ -645,12 +660,13 @@ hr.style1{
 
 	.section-right {
 		width: 100%;
+		background: none;
 	}
 
 	.title {
-		width: 100%;
+		width: 80%;
 		display: block;
-		margin: -5% auto -4% auto;
+		margin: -12% auto -4% auto;
 		text-align: center;
 	}
 
@@ -658,38 +674,39 @@ hr.style1{
 		display: none;
 	}
 
-	.section-right nav {
+	nav {
 		width: 100%;
 		position: static;
+		display: block;
+	}
+	
+	nav ul {
+		width: 100%;
+		display: block;
+		margin: -5% auto 0 -10%;
+		border-top: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+
 	}
 
-	.section-right nav ul {
-		width: 65%;
-		display: block;
-		margin: 5% auto 0 auto;
-
+	nav ul li {
+		display: inline-block;
+		border: none;
+		margin: 0 5%;
 	}
 
-	.section-right nav ul.socialmedia {
-		width: 20%;
-		display: block;
-		margin: 5% auto 0 auto;
-		float: right;
-		text-align: right;
+	nav ul li:first-of-type {
+		margin-left: 10%;
+	}
 
+	nav ul li:last-of-type {
+		border: none;
 	}
 
 
 
 	.logo {
 		width: 20%;
-	}
-
-	.booksession {
-		position: fixed;
-		bottom: 0;
-		margin: 0;
-		padding: 1em;
 	}
 
 	.camera_container #camera_wrap_1{
@@ -701,11 +718,6 @@ hr.style1{
 		z-index: -1;
 
 	}
-
-	footer {
-		display: none;
-	}
-
 
 	.portfolio-left {
 		margin: 0;
@@ -721,47 +733,41 @@ hr.style1{
 	}
 
 	.contactinfo {
-		width: 80%;
-		padding: 0 10%;
+		width: 95%;
 		margin: 0 0 5% 0;
 		text-align: center;
 	}
 
-	.contact_container form {
-		width: 80%;
-		padding: 0 10%;
-		margin: 0 0 10% 0;
-	}
-	.biocontact_container p {
-		width: 95%;
+	.contactinfo .column {
+		width: 100%;
 	}
 
-	.biocontact_container p:last-of-type {
-		margin-bottom: 15%;
+	#name, #email, #phone, #session {
+		width: 98%;
 	}
 
+	.details {
+		width: 100%;
+		display: block;
+		margin: 5% auto;
+		padding: 0;
+	}
+
+	.proofs_container form {
+		width: 50%;
+		display: block;
+		margin: 25% auto 0 auto;
+	}
 
 }
 
 @media screen and (max-width: 480px) { 
 
-	.section-right nav {
-		width: 100%;
-		position: static;
-	}
-
-	.section-right nav ul {
-		width: 70%;
+	nav ul li {
 		display: inline-block;
-		margin: 5% 0 0 0;
-
+		border: none;
+		margin: 0 2%;
 	}
-
-	.section-right nav ul.socialmedia {
-		display: none;
-
-	}
-
 
 	.portfolio_container {
 		margin: -5% 0 0 0;
@@ -815,6 +821,17 @@ hr.style1{
 	.contact_container form {
 		margin: 0 0 20% 0;
 	}
+
+	#submitbutton {
+		width: 50%;
+		margin-bottom: 10%;
+	}
+
+	.proofs_container form {
+	width: 75%;
+	display: block;
+	margin: 25% auto 0 auto;
+}
 
 
 }

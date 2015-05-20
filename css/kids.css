@@ -7,11 +7,16 @@
 }
 
 #kids .portfolio-left ul li:nth-child(1),
+#kids .portfolio-left ul li:nth-child(4),
 #kids .portfolio-left ul li:nth-child(5),
 #kids .portfolio-left ul li:nth-child(7),
 #kids .portfolio-left ul li:nth-child(8),
+#kids .portfolio-left ul li:nth-child(10),
+#kids .portfolio-left ul li:nth-child(11),
 #kids .portfolio-left ul li:nth-child(13),
-#kids .portfolio-left ul li:nth-child(14) {
+#kids .portfolio-left ul li:nth-child(14),
+#kids .portfolio-left ul li:nth-child(15),
+#kids .portfolio-left ul li:nth-child(16) {
 	width: 49%;
 }
 

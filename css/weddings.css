@@ -1,5 +1,8 @@
 #weddings .portfolio-left li:nth-child(1),
-#weddings .portfolio-left li:nth-child(2) {
+#weddings .portfolio-left li:nth-child(2),
+#weddings .portfolio-left li:nth-child(4),
+#weddings .portfolio-left li:nth-child(5)
+ {
 	width: 49%;
 }
 

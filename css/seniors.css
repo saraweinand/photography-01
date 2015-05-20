@@ -1,25 +1,41 @@
-#seniors .portfolio-left li:nth-child(4),
-#seniors .portfolio-left li:nth-child(7),
-#seniors .portfolio-left li:nth-child(14),
-#seniors .portfolio-left li:nth-child(19),
-#seniors .portfolio-left li:nth-child(24),
-#seniors .portfolio-left li:nth-child(27),
-#seniors .portfolio-left li:nth-child(30),
-#seniors .portfolio-left li:nth-child(33),
-#seniors .portfolio-left li:nth-child(34)
+#seniors .portfolio-left li
  {
   width: 100%
 }
 
-#seniors .portfolio-left
-li:nth-child(6),
-li:nth-child(8),
-li:nth-child(9),
-li:nth-child(12),
-li:nth-child(13),
-li:nth-child(17)
+#seniors .portfolio-left li:nth-child(2),
+#seniors .portfolio-left li:nth-child(3),
+#seniors .portfolio-left li:nth-child(5),
+#seniors .portfolio-left li:nth-child(6),
+#seniors .portfolio-left li:nth-child(8),
+#seniors .portfolio-left li:nth-child(9),
+#seniors .portfolio-left li:nth-child(10),
+#seniors .portfolio-left li:nth-child(11),
+#seniors .portfolio-left li:nth-child(12),
+#seniors .portfolio-left li:nth-child(13),
+#seniors .portfolio-left li:nth-child(15),
+#seniors .portfolio-left li:nth-child(16),
+#seniors .portfolio-left li:nth-child(17),
+#seniors .portfolio-left li:nth-child(18),
+#seniors .portfolio-left li:nth-child(20),
+#seniors .portfolio-left li:nth-child(21),
+#seniors .portfolio-left li:nth-child(22),
+#seniors .portfolio-left li:nth-child(23),
+#seniors .portfolio-left li:nth-child(25),
+#seniors .portfolio-left li:nth-child(26),
+#seniors .portfolio-left li:nth-child(28),
+#seniors .portfolio-left li:nth-child(29),
+#seniors .portfolio-left li:nth-child(31),
+#seniors .portfolio-left li:nth-child(32),
+#seniors .portfolio-left li:nth-child(35),
+#seniors .portfolio-left li:nth-child(36),
+#seniors .portfolio-left li:nth-child(37),
+#seniors .portfolio-left li:nth-child(38),
+#seniors .portfolio-left li:nth-child(39),
+#seniors .portfolio-left li:nth-child(40)
+
  {
-  width: 49%
+  width: 49.5%
 }
 
 #seniors .portfolio-right li {

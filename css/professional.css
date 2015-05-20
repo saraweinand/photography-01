@@ -1,7 +1,14 @@
-#professional ul li:nth-child(4),
-#professional ul li:nth-child(7),
-#professional ul li:nth-child(10),
-#professional ul li:nth-child(11),
-#professional ul li:nth-child(12) {
+#professional .portfolio-left li:nth-child(4),
+#professional .portfolio-left li:nth-child(7),
+#professional .portfolio-left li:nth-child(10),
+#professional .portfolio-left li:nth-child(11),
+#professional .portfolio-left li:nth-child(12) {
 	width: 100%;
+}
+
+#professional .portfolio-left li:nth-child(5),
+#professional .portfolio-left li:nth-child(6),
+#professional .portfolio-left li:nth-child(8),
+#professional .portfolio-left li:nth-child(9) {
+	width: 49.5%;
 }
